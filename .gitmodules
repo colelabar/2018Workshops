@@ -1,0 +1,3 @@
+[submodule "short-story-rubyonrails-app"]
+	path = short-story-rubyonrails-app
+	url = https://github.com/colelabar/short-story-rubyonrails-app
