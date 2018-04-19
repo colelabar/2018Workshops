@@ -18,5 +18,6 @@ defmodule Rumbl.Video do
   def changeset(model, params \\ %{}) do
     model
     |> cast(params, [:url, :title, :description, :category_id])
+    |> assoc_constraint(:category)
   end
 end
