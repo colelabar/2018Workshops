@@ -24,3 +24,9 @@ def oneShip(ship_id):
     id = ship_id
     query = cursor.execute("SELECT * FROM ships WHERE id=" + str(id))
     return jsonify(cursor.fetchone())
+
+@app.route('/ships/<int:ship_id>', methods=['DELETE'])
+def oneShip(ship_id):
+    id = ship_id
+    query = cursor.execute("DELETE * FROM ships WHERE id=" + str(id))
+    # Playing with return conditionals
