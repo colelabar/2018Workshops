@@ -1,3 +1,5 @@
+This is a short project built around the React tutorial found on the [React Website](https://reactjs.org/tutorial/tutorial.html). I was interested in learning React due to several factors, one of the most important being to increase the breadth of my developer knowledge and to get my proverbial feet wet in a front-end framework that I've heard so much about. This is just a simple Tic-Tac-Toe game, but it helped to foster an understanding of React's JSX syntax, as well as its use of props.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
